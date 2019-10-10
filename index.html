@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flyer Neon</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="contenido-encabezado" id="header">
+    <div class="texto-encabezado">
+      <p class="icono">
+        <i class="fas fa-glass-cheers"></i>
+      </p>
+      <h1 class="titulo">
+        Bohemian Bar<br>¡Entra!<br>
+        <span class="titulo-naranja-neon texto-regular">50% de Descuento</span>
+      </h1>
+      <p class="desc">
+        Tenemos nueva sucursal<br>
+        Por apertura, todas nuestras bebidas a mitad <br>
+        de precio en Av Lorem 28-B, Col. Centro, Ipsum.
+      </p>
+      <a href="#" class="btn-link texto-regular">Más información</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="contenedor">
+      <h2 class="subtitulo">Servicios</h2>
+      <p><span class="capital">L</span>orem ipsum dolor sit amet consectetur, adipisicing elit. Tempora vitae quia
+        placeat libero asperiores, est consequuntur ipsa. Voluptates quo quaerat ratione omnis dolor minima, debitis
+        soluta est possimus mollitia corporis cum dicta iusto sed?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi voluptatum possimus dolorum sequi, fuga
+        minima officiis aliquam deserunt illo explicabo neque nobis error magni facilis quos assumenda cum dolores quis
+        fugiat quaerat alias.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi delectus dicta reiciendis quis maiores blanditiis numquam voluptatibus architecto quod rem.</p>
+    </section>
+  </main>
+  <script src="https://kit.fontawesome.com/ac56c4349a.js" crossorigin="anonymous"></script>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      header.style.opacity = '1' - window.pageYOffset / 650;
+    });
+  </script>
+</body>
+
+</html>
